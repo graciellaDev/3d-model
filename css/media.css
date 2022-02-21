@@ -1,0 +1,346 @@
+@media  screen and (max-width: 991px) {
+  .section-button {
+    padding: 20.5px 56px;
+  }
+
+  .hero__button {
+    padding: 24px 75.5px
+  }
+
+  .avantage__img {
+    background-size: 50%;
+  }
+
+  .tichers {
+    padding-bottom: 50px;
+  }
+
+  .ticher__citate {
+    max-width: 330px;
+    margin-bottom: 25px;
+    letter-spacing: -0.1px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .container {
+    padding-left: 39px;
+    padding-right: 39px;
+  }
+
+  .hero-container {
+    padding-bottom: 135px;
+    background: url("../img/hero-background-768.png") no-repeat 91% 44% / 43%;;
+  }
+
+  .hero__title {
+    margin-bottom: 15px;
+    font-size: 50px;
+  }
+
+  .hero__text {
+    max-width: 345px;
+  }
+
+  .avantage {
+    padding-bottom: 76px;
+  }
+
+  .avantage__row {
+    margin-bottom: 19px;
+  }
+
+  .avantage__img {
+    background-size: 88%;
+    background-position: center 42%;
+  }
+
+  .avantage__block-icon {
+    align-items: flex-start;
+    padding-top: 95px;
+    padding-left: 15px;
+    background-position-y: 5px;
+  }
+
+  .avantage__text {
+    max-width: 205px;
+  }
+
+  .course-card_cinema {
+    background-image: url("../img/course_card1-768-min.png");
+  }
+
+  .course-card_blender {
+    background-image: url("../img/course_card2-768-min.png");
+  }
+
+  .course-card_3Ds {
+    background-image: url("../img/course_card3-768-min.png");
+  }
+
+  .course-card_zbrash {
+    background-image: url("../img/course_card4-768-min.png");
+  }
+
+  .course-card__descriptoin {
+    margin-bottom: 30px;
+  }
+
+  .course-card__time {
+    right: 10px;
+  }
+}
+
+@media screen and (max-width: 654px) {
+  .container {
+    padding-left: 33px;
+    padding-right: 33px;
+  }
+
+  .section-button {
+    padding: 20.5px 48px;
+  }
+
+  .menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu__logo {
+    margin-right: 0;
+    margin-bottom: 31px;
+  }
+
+  .hero-container {
+    padding-top: 77px;
+    background: none;
+  }
+
+  .hero__button {
+    padding: 24px 75.5px;
+  }
+
+  .avantage {
+    padding-bottom: 57px;
+  }
+
+  .avantage__img {
+    background-size: 84%;
+    background-position-y: top;
+  }
+
+  .avantage__block-icon {
+    background-position-y: 8px;
+  }
+
+  .avantage__text {
+    max-width: 155px;
+  }
+
+  .ticher__citate {
+    max-width: 240px;
+    letter-spacing: unset;
+  }
+
+  .course-card {
+    max-width: 240px;
+    padding-right: 22px;
+  }
+
+  .course-card__title {
+    line-height: 130%;
+  }
+
+  .course-card_cinema {
+    background-image: url("../img/course_card1-576-min.png");
+  }
+
+  .course-card_blender {
+    background-image: url("../img/course_card2-576-min.png");
+  }
+
+  .course-card_3Ds {
+    background-image: url("../img/course_card3-576-min.png");
+  }
+
+  .course-card_zbrash {
+    background-image: url("../img/course_card4-576-min.png");
+  }
+
+  .course-card__descriptoin {
+    margin-bottom: 35px;
+  }
+}
+
+@media screen and (max-width: 575px){
+  /* glob */
+  .section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .section-title {
+    margin-bottom: 15px;
+    font-size: 20px;
+    line-height: 130%;
+  }
+
+  .section-button {
+    padding: 20.5px 55.5px;
+    line-height: 19px;
+  }
+
+  /* header */
+  .header {
+    padding: 25px 0;
+  }
+
+  .menu {
+    position: relative;
+    flex-direction: row;
+  }
+
+  .menu__logo {
+    margin-bottom: 0;
+  }
+
+  .logo {
+    max-width: 72px;
+  }
+
+  .menu__nav {
+    position: absolute;
+    top: -25px;
+    right: 0;
+    z-index: 1;
+    width: 100%;
+    padding: 76px 15px 105px;
+    background-color: var(--dark-background);
+    color: white;
+    opacity: 0;
+  }
+
+  .nav-list {
+    flex-direction: column;
+  }
+
+  .nav-list__item:not(:last-child) {
+    margin-bottom: 56px;
+  }
+
+  .menu__burger {
+    display: block;
+  }
+
+  /* hero */
+  .hero {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .hero-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .hero__title {
+    max-width: 370px;
+    margin-bottom: 4px;
+    font-size: 30px;
+    line-height: 100%;
+  }
+
+  .hero__text {
+    max-width: 370px;
+    margin-bottom: 46px;
+    font-size: 16px;
+    line-height: 130%;
+  }
+
+  .hero__button {
+    padding: 20.5px 53.5px;
+    font-size: 16px;
+  }
+
+  /* avantage */
+  .avantage__row {
+    margin-bottom: 27px;
+  }
+
+  .avantage__title {
+    margin-bottom: 0;
+  }
+
+  .avantage__block-icon {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 125px;
+    background-position-y: 0;
+  }
+
+  .avantage__block-icon:not(:last-child) {
+    margin-bottom: 29px;
+  }
+
+  .avantage__text {
+    max-width: 100%;
+  }
+
+  /* tichers */
+  .tichers {
+    padding-bottom: 23px;
+  }
+
+  .tichers-title {
+    margin-bottom: 26px;
+    line-height: 17px;
+  }
+
+  .ticher__img {
+    width: 100%;
+    margin-bottom: 28px;
+  }
+
+  .ticher__citate {
+    max-width: 100%;
+    letter-spacing: unset;
+  }
+
+  /* courses */
+  .courses {
+    padding-top: 43px;
+    padding-bottom: 20px;
+  }
+
+  .course-card {
+    max-width: 290px;
+    height: 653px;
+    margin: auto;
+    padding-right: 30px;
+  }
+
+  .courses__title {
+    margin-bottom: 24px;
+  }
+
+  .course-card_cinema {
+    background-image: url("../img/course_card1-320-min.png");
+  }
+
+  .course-card_blender {
+    background-image: url("../img/course_card2-320-min.png");
+  }
+
+  .course-card_3Ds {
+    background-image: url("../img/course_card3-320-min.png");
+  }
+
+  .course-card_zbrash {
+    background-image: url("../img/course_card4-320-min.png");
+  }
+}
